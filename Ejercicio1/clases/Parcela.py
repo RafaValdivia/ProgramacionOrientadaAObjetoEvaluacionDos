@@ -24,3 +24,5 @@ class Parcela:
     def mostrar_eventos(self):
         for e in self.historial_eventos:
             print(f"[{e['fecha']}] {e['descripcion']}")
+
+
