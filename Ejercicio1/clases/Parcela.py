@@ -10,7 +10,7 @@ class Parcela:
         self.estado = "activa"
         self.historial_eventos = []
 
-    def actualizar_cultivo(self, nuevo_cultivo):
+    def actualizar_cultivo(self, nuevo_cultivo)
         if nuevo_cultivo:
             self.cultivo_actual = nuevo_cultivo
             self._registrar_evento(f"Cambio de cultivo a {nuevo_cultivo}")
@@ -24,3 +24,4 @@ class Parcela:
     def mostrar_eventos(self):
         for e in self.historial_eventos:
             print(f"[{e['fecha']}] {e['descripcion']}")
+
